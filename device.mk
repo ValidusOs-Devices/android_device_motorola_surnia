@@ -52,3 +52,9 @@ PRODUCT_PACKAGES += \
 # Resized boot animation
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/bootanimation/540.zip:system/media/bootanimation.zip
+
+# Sensors
+PRODUCT_PACKAGES += \
+    stml0xx \
+    sensors.msm8916 \
+    sensorhub.msm8916
