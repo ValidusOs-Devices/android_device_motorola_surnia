@@ -29,8 +29,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 540
-TARGET_SCREEN_HEIGHT := 960
+#TARGET_SCREEN_WIDTH := 540
+#TARGET_SCREEN_HEIGHT := 960
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -50,5 +50,5 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # Resized boot animation
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/prebuilt/bootanimation/540.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/bootanimation/540.zip:system/media/bootanimation.zip
